@@ -1,5 +1,7 @@
 # Product Overview
 
+**Name: ReelDesa** — "reel" (film) + *desa* (Indonesian for "village").
+
 ## What it is
 A footage intake + AI upscaling pipeline that turns low-quality clips shot by local
 villagers into sharp, cinematic-grade, editor-ready footage — so authentic material can
