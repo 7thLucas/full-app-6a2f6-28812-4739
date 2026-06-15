@@ -6,10 +6,13 @@ villagers into sharp, cinematic-grade, editor-ready footage — so authentic mat
 sit alongside professionally shot scenes without dragging down the final film.
 
 ## Who it's for
-- **Primary user — the editor:** a freelance video editor who turns everyday content into
-  cinematic films, specializing in promoting small Indonesian villages to tourists.
-- **Contributors — local villagers:** non-technical residents who capture authentic daily
-  clips on phones and basic cameras.
+- **The user — the editor (single user, MVP):** a freelance video editor who turns everyday
+  content into cinematic films, specializing in promoting small Indonesian villages to
+  tourists. The editor is the *only* person who uses the app.
+- **Footage source — local villagers (not app users):** residents shoot authentic daily clips
+  on phones and basic cameras. That footage is the editor's differentiator, but villagers do
+  **not** upload into the app themselves — the editor collects and uploads it. Villager-direct
+  uploads are intentionally out of MVP scope to keep the solution simple.
 - **Downstream beneficiaries:** the villages (tourism promotion) and prospective tourists
   who watch the finished films.
 
