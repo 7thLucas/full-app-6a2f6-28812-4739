@@ -1,0 +1,35 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .mode-portrait  .sl-grid { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+</style>
+<section class="w-full h-full overflow-auto bg-white text-slate-900">
+  <div class="w-full h-full flex flex-col p-12">
+    <div class="flex items-center gap-3 mb-5">
+      <span class="inline-block w-10 h-px bg-amber-600"></span>
+      <span class="text-xs tracking-[0.3em] uppercase text-amber-700 font-semibold">Core Features</span>
+    </div>
+    <div class="flex flex-wrap gap-2 mb-7">
+      <span class="px-4 py-1.5 rounded-full bg-emerald-900 text-emerald-50 text-sm font-medium">The Editor</span>
+      <span class="px-4 py-1.5 rounded-full bg-slate-100 text-slate-500 text-sm">The Villager</span>
+      <span class="px-4 py-1.5 rounded-full bg-slate-100 text-slate-500 text-sm">The Village</span>
+    </div>
+    <div class="grid gap-5 flex-1 sl-grid">
+      <div class="rounded-xl border border-slate-200 p-6">
+        <p class="text-amber-700 font-semibold mb-2">Simple clip intake</p>
+        <p class="text-slate-600 leading-relaxed">Drop in rough footage from any source — no technical setup, easy enough for a villager to send their own clips.</p>
+      </div>
+      <div class="rounded-xl border border-slate-200 p-6">
+        <p class="text-amber-700 font-semibold mb-2">AI upscaling</p>
+        <p class="text-slate-600 leading-relaxed">Lift low-resolution clips to a cinematic standard — more detail, sharper frames, less compression mush.</p>
+      </div>
+      <div class="rounded-xl border border-slate-200 p-6">
+        <p class="text-amber-700 font-semibold mb-2">Cinematic cleanup</p>
+        <p class="text-slate-600 leading-relaxed">Reduce noise and artifacts so enhanced footage sits seamlessly next to professionally shot scenes.</p>
+      </div>
+      <div class="rounded-xl border border-slate-200 p-6">
+        <p class="text-amber-700 font-semibold mb-2">Editor-ready export</p>
+        <p class="text-slate-600 leading-relaxed">Download timeline-ready clips and drop them straight into your edit — no extra conversion step.</p>
+      </div>
+    </div>
+  </div>
+</section>
