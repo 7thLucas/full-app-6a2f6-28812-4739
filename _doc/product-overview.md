@@ -23,7 +23,7 @@ heavily compressed (old phones, messaging-app re-encodes). Manually upscaling an
 each clip is slow, and it's the bottleneck that caps how many villages the editor can take on.
 
 ## The core workflow
-1. **Intake** — villagers or the editor upload rough clips into the app.
+1. **Intake** — the editor uploads rough clips into the app (including villager-shot footage).
 2. **Upscale & enhance** — the app upscales resolution and improves sharpness/denoise to a
    cinematic standard via an AI upscaling model/service.
 3. **Deliver** — the editor downloads editor-ready footage and drops it straight into the timeline.
