@@ -54,7 +54,6 @@ natural greens.
   out of MVP scope — a possible later phase, not now.
 
 ## Open questions (to confirm during scoping)
-- Confirmed app name.
 - Volume facts: clips per week, number of villages served, typical clip length/resolution.
 - Pricing model and the editor's current hourly value (for ROI).
 
