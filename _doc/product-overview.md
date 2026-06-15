@@ -45,7 +45,8 @@ natural greens.
 ## Scope & status
 - Early scoping. **Name: TBD (working title).**
 - **MVP = the upscale pipeline**: intake → AI upscale/enhance → download editor-ready clip.
-- Keep contributor upload dead simple for non-technical villagers.
+- **Single user (the editor) only.** Villager-direct uploads / multi-contributor accounts are
+  out of MVP scope — a possible later phase, not now.
 
 ## Open questions (to confirm during scoping)
 - Confirmed app name and the single "one thing brilliantly" for day one.
