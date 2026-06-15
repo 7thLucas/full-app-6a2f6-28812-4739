@@ -43,13 +43,16 @@ creator-facing. Visual palette leans into film-grade warmth (golden accent) and 
 natural greens.
 
 ## Scope & status
-- Early scoping. **Name: TBD (working title).**
+- Scoping in progress. **Name: TBD (working title).**
 - **MVP = the upscale pipeline**: intake → AI upscale/enhance → download editor-ready clip.
+- **Day-one feature (confirmed):** upload a *single* rough clip → upscale/enhance to cinematic
+  grade → download the timeline-ready result. Done brilliantly, nothing more. Batching,
+  presets, and color matching are explicitly deferred.
 - **Single user (the editor) only.** Villager-direct uploads / multi-contributor accounts are
   out of MVP scope — a possible later phase, not now.
 
 ## Open questions (to confirm during scoping)
-- Confirmed app name and the single "one thing brilliantly" for day one.
+- Confirmed app name.
 - Volume facts: clips per week, number of villages served, typical clip length/resolution.
 - Pricing model and the editor's current hourly value (for ROI).
 
