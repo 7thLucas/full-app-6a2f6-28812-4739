@@ -1,0 +1,1 @@
+I'm a video editor specialized in taking a daily content into cinematic masterpiece. I usually work with small indonesian village to promote their village for tourists. to make my work more organic, I sometimes include videos taken by local villager and put it on my video. however, sometimes the quality of the video is very low and hence I need to upscale it
