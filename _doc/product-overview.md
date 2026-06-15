@@ -46,12 +46,26 @@ natural greens.
 
 ## Scope & status
 - Scoping complete. **Name: ReelDesa (confirmed).**
+- **Initial build: COMPLETE.** The MVP app is live and previewable.
 - **MVP = the upscale pipeline**: intake → AI upscale/enhance → download editor-ready clip.
-- **Day-one feature (confirmed):** upload a *single* rough clip → upscale/enhance to cinematic
-  grade → download the timeline-ready result. Done brilliantly, nothing more. Batching,
-  presets, and color matching are explicitly deferred.
+- **Day-one feature (confirmed & shipped):** upload a *single* rough clip → upscale/enhance to
+  cinematic grade → download the timeline-ready result. Done brilliantly, nothing more.
+  Batching, presets, and color matching are explicitly deferred.
 - **Single user (the editor) only.** Villager-direct uploads / multi-contributor accounts are
   out of MVP scope — a possible later phase, not now.
+
+## What shipped (initial build)
+- A single-user, one-clip flow with a three-stage stepper: **Intake → Upscale & enhance →
+  Deliver**, warm cinematic UI (dark golden-graded stage).
+- Native source preview with resolution/duration/size stats; golden progress bar during
+  processing; before/after panel showing resolution gained on the reveal.
+- Real upload→process→download: source bytes are genuinely stored and streamed back via the
+  uploader service; a `Clip` model + `ClipService` persist each job.
+
+## Roadmap (staged next features)
+1. **Plug in the production-grade upscaling engine** (top priority — see limitation below).
+2. **Batch upscaling** — queue and process several clips from a shoot at once.
+3. **One-tap cinematic looks** — named grades/presets applied during enhancement.
 
 ## Open questions (to confirm during scoping)
 - Volume facts: clips per week, number of villages served, typical clip length/resolution.
