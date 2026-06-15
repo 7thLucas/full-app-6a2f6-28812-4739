@@ -45,7 +45,7 @@ creator-facing. Visual palette leans into film-grade warmth (golden accent) and 
 natural greens.
 
 ## Scope & status
-- Scoping in progress. **Name: TBD (working title).**
+- Scoping complete. **Name: ReelDesa (confirmed).**
 - **MVP = the upscale pipeline**: intake → AI upscale/enhance → download editor-ready clip.
 - **Day-one feature (confirmed):** upload a *single* rough clip → upscale/enhance to cinematic
   grade → download the timeline-ready result. Done brilliantly, nothing more. Batching,
