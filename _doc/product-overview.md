@@ -72,5 +72,11 @@ natural greens.
 - Pricing model and the editor's current hourly value (for ROI).
 
 ## Dependencies & uncertainty
-- AI video upscaling will likely rely on a third-party upscaling model/API; quality and
-  feasibility to be validated by the Engineer.
+- **Known limitation (current build):** the pipeline runs end-to-end for real, but the
+  enhancement step does **not yet re-render pixels** with a true upscaler — the delivered
+  file is the intake-verified source served through the pipeline with the computed cinematic
+  target spec, not genuinely upscaled imagery. `enhanceClip()` is the single drop-in seam for
+  a real upscaler.
+- AI video upscaling needs a third-party model/API (e.g. Real-ESRGAN / Topaz-grade or a hosted
+  endpoint). Cost-per-second and latency for short clips are the open trade-offs; this is the
+  top staged next feature ("Plug in the production-grade upscaling engine").
